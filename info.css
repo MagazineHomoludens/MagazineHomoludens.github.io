@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "Cafe24Ssurround";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  height: 2334px;
+  width: 100%;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  margin-left: 0%;
+  margin-top: 0%;
+}
+
+.button__megazine {
+  height: 30px;
+  width: 142px;
+  background-color: #919623;
+  position: absolute;
+  top: 33px;
+  right: 115px;
+  border-radius: 2px;
+  display: none;
+  justify-content: center;
+  padding-top: 9px;
+  z-index: 3;
+}
+#check_vol {
+  display: none;
+}
+
+#check_vol:checked ~ .button__megazine {
+  display: flex;
+  transition: 0.2s;
+}
+.vol1 {
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.vol1:hover {
+  color: #494949;
+}
+
+.box__top {
+  height: 174px;
+  width: 100%;
+  background-color: #f2f2f2;
+  position: absolute;
+  margin-top: 0%;
+}
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box__top_right {
+  position: absolute;
+  height: 33px;
+  width: 388px;
+  background-color: rgba(176, 177, 150, 0.1);
+  border-radius: 300px;
+  right: 9.72%;
+  bottom: 11.4%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.span__menu {
+  font-family: "Cafe24Ssurround";
+  color: #494949;
+  font-size: 16px;
+}
+.span__menu:hover {
+  color: #919623;
+}
+
+.column__menu {
+  padding: 8px 32px 6px 32px;
+}
+.banner {
+  position: absolute;
+  width: 1440px;
+  height: 332px;
+
+  top: 175px;
+}
+.font_info_checked {
+  color: #919623;
+}
+
+.line {
+  position: absolute;
+  width: 68px;
+  height: 3px;
+
+  left: 43px;
+  bottom: 0%;
+  z-index: 9999;
+  background: #919623;
+  border-radius: 3px;
+}
+.title_info {
+  position: absolute;
+  width: 378px;
+  height: 68px;
+  left: 10.6%;
+  top: 587px;
+
+  font-family: "AppleSDGothicNeoEB00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 50px;
+
+  color: #494949;
+}
+
+.title_info2 {
+  position: absolute;
+  width: 378px;
+  height: 68px;
+  left: 10.6%;
+  top: 1787px;
+
+  font-family: "AppleSDGothicNeoEB00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 50px;
+
+  color: #494949;
+}
+.contents {
+  width: 909px;
+  height: 922px;
+  position: absolute;
+  right: 10.6%;
+  top: 687px;
+}
+.team_member {
+  position: absolute;
+  width: 875px;
+  height: 291px;
+  right: 10.6%;
+  top: 1787px;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  top: 2334px;
+  background: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
