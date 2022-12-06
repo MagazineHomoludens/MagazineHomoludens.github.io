@@ -1,0 +1,398 @@
+@font-face {
+  font-family: "Cafe24Ssurround";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  height: 1720px;
+  width: 100%;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.box__header {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  background-color: #f2f2f2;
+  z-index: 999;
+  border-bottom-style: solid;
+  border-bottom-color: #d9d9d9;
+  border-bottom-width: 1px;
+}
+
+.BASIC {
+  position: absolute;
+  left: 22.361%;
+  color: #919623;
+  top: 18px;
+  font-family: "Cafe24 Ssurround";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+.CONTENT {
+  position: absolute;
+  left: 32.3%;
+
+  top: 18px;
+}
+.STORY {
+  position: absolute;
+  left: 44.236%;
+
+  top: 18px;
+}
+.MEMORY {
+  position: absolute;
+  left: 54.5138%;
+
+  top: 18px;
+}
+.font__menu {
+  font-family: "Cafe24 Ssurround";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  /* identical to box height */
+
+  color: #494949;
+}
+.font__menu:hover {
+  color: #919623;
+}
+#logo_small {
+  position: absolute;
+  left: 9.72%;
+  top: 9px;
+}
+
+.button__megazine {
+  height: 30px;
+  width: 142px;
+  background-color: #919623;
+  position: absolute;
+  top: 33px;
+  right: 115px;
+  border-radius: 2px;
+  display: none;
+  justify-content: center;
+  padding-top: 9px;
+  z-index: 3;
+}
+#check_vol {
+  display: none;
+}
+
+#check_vol:checked ~ .button__megazine {
+  display: flex;
+  transition: 0.2s;
+}
+.vol1 {
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.vol1:hover {
+  color: #494949;
+}
+.box__top_right {
+  position: absolute;
+  height: 33px;
+  width: 388px;
+  background-color: rgba(176, 177, 150, 0.1);
+  border-radius: 300px;
+  right: 9.72%;
+  top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.span__menu {
+  font-family: "Cafe24Ssurround";
+  color: #494949;
+  font-size: 16px;
+  text-decoration: none;
+}
+.span__menu:hover {
+  color: #919623;
+}
+.line {
+  position: absolute;
+  width: 68px;
+  height: 3px;
+
+  left: 21.75%;
+
+  bottom: 0%;
+  z-index: 9999;
+  background: #919623;
+  border-radius: 3px;
+}
+
+.banner {
+  position: absolute;
+  width: 78.75%;
+  height: 185px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 92px;
+}
+#banner_img {
+  width: 100%;
+  height: 185px;
+  object-fit: cover;
+}
+
+#category {
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+  top: 55px;
+
+  font-family: "Alfa Slab One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 48px;
+
+  color: #f2f2f2;
+}
+#about_category {
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+  top: 107px;
+
+  font-family: "AppleSDGothicNeoB00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+
+  color: #dadada;
+}
+.box_article1 {
+  position: absolute;
+  width: 38%;
+  height: 472px;
+  left: 10.6%;
+  top: 317px;
+
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+#basic_img1 {
+  position: absolute;
+  width: 96.43%;
+  height: 350px;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  object-fit: cover;
+}
+
+.font_tag {
+  position: absolute;
+  left: 10px;
+  font-family: "AppleSDGothicNeoL00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #787878;
+}
+
+.box_article1 > .font_tag {
+  top: 370px;
+}
+
+.font_title {
+  position: absolute;
+
+  left: 10px;
+
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #000000;
+}
+
+.box_article1 > .font_title {
+  top: 395px;
+}
+
+.font_contents {
+  position: absolute;
+
+  left: 10px;
+
+  font-family: "AppleSDGothicNeoL00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.box_article1 > .font_contents {
+  bottom: 10px;
+}
+.box_article2 {
+  position: absolute;
+  width: 38%;
+  height: 732px;
+  right: 10.6%;
+  top: 317px;
+
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+#basic_img2 {
+  position: absolute;
+  width: 96.43%;
+  height: 610px;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  object-fit: cover;
+}
+.box_article2 > .font_tag {
+  top: 630px;
+}
+.box_article2 > .font_title {
+  top: 655px;
+}
+.box_article2 > .font_contents {
+  bottom: 10px;
+}
+.box_article3 {
+  position: absolute;
+  width: 38%;
+  height: 468px;
+  left: 10.6%;
+  top: 817px;
+
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+#basic_img3 {
+  position: absolute;
+  width: 96.43%;
+  height: 350px;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  object-fit: cover;
+}
+.box_article3 > .font_tag {
+  top: 370px;
+}
+.box_article3 > .font_title {
+  top: 395px;
+}
+.box_article3 > .font_contents {
+  bottom: 10px;
+}
+
+.box_article4 {
+  position: absolute;
+  width: 38%;
+  height: 420px;
+  left: 10.6%;
+  top: 1317px;
+
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+#basic_img4 {
+  position: absolute;
+  width: 96.43%;
+  height: 298px;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  object-fit: cover;
+}
+.box_article4 > .font_tag {
+  top: 318px;
+}
+.box_article4 > .font_title {
+  top: 343px;
+}
+.box_article4 > .font_contents {
+  bottom: 10px;
+}
+
+.box_article5 {
+  position: absolute;
+  width: 38%;
+  height: 572px;
+  right: 10.6%;
+  top: 1080px;
+
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+#basic_img5 {
+  position: absolute;
+  width: 96.43%;
+  height: 450px;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  object-fit: cover;
+}
+.box_article5 > .font_tag {
+  top: 470px;
+}
+.box_article5 > .font_title {
+  top: 495px;
+}
+.box_article5 > .font_contents {
+  bottom: 10px;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  left: 0%;
+  top: 1969px;
+  background: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+#b_img {
+  position: absolute;
+  width: 375px;
+  height: 249px;
+  right: 17.36%;
+  top: 1720px;
+
+  background: url("source/basic_bottom_img.svg");
+}
