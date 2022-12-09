@@ -15,6 +15,8 @@ body {
   overflow-x: hidden;
 }
 
+/* 헤더 */
+
 .box__header {
   position: fixed;
   width: 100%;
@@ -22,33 +24,59 @@ body {
   left: 0px;
   top: 0px;
   background-color: #f2f2f2;
-  z-index: 999;
+  z-index: 10;
+  border-bottom-style: solid;
+  border-bottom-color: #d9d9d9;
+  border-bottom-width: 1px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.BASIC {
-  position: absolute;
-  left: 22.361%;
-  transform: translateX();
-  top: 18px;
+#basic_box {
+  width: 70px;
+  height: 48px;
+  padding-top: 2px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.CONTENT {
-  position: absolute;
-  left: 32.3%;
-
-  top: 18px;
+#content_box {
+  width: 100px;
+  height: 48px;
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+#story_box {
+  width: 70px;
+  height: 48px;
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#memory_box {
+  width: 100px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .STORY {
-  position: absolute;
-  left: 44.236%;
+  color: #919623;
 
-  top: 18px;
-}
-.MEMORY {
-  position: absolute;
-  left: 54.5138%;
-
-  top: 18px;
+  font-family: "Cafe24 Ssurround";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
 }
 .font__menu {
   font-family: "Cafe24 Ssurround";
@@ -57,7 +85,6 @@ body {
   font-size: 16px;
   line-height: 19px;
   text-decoration: none;
-  /* identical to box height */
 
   color: #494949;
 }
@@ -65,9 +92,17 @@ body {
   color: #919623;
 }
 #logo_small {
-  position: absolute;
-  left: 9.72%;
-  top: 9px;
+  width: 70px;
+  height: 34px;
+}
+#boxbox {
+  width: 389px;
+  height: 50px;
+  display: block;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button__megazine {
@@ -104,13 +139,13 @@ body {
   color: #494949;
 }
 .box__top_right {
-  position: absolute;
-  height: 33px;
+  height: 31px;
   width: 388px;
+
+  padding-top: 2px;
   background-color: rgba(176, 177, 150, 0.1);
   border-radius: 300px;
-  right: 9.72%;
-  top: 10px;
+
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -146,7 +181,7 @@ body {
 #policeline2 {
   position: absolute;
   width: 100%;
-  height: 267.06px;
+  height: 300px;
   left: 0%;
   top: 3736px;
   object-fit: cover;
