@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 /* 헤더 */
@@ -610,7 +611,7 @@ body {
   width: 100%;
   height: 80px;
   left: 0%;
-  top: 3953px;
+  top: 3955px;
   background: #dddddd;
   display: flex;
   justify-content: center;
