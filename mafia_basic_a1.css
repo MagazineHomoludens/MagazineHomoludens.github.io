@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 1680px;
+  height: 4275px;
   width: 100%;
   background-color: #f2f2f2;
   margin: 0;
@@ -76,7 +76,7 @@ body {
   top: 47.5px;
 }
 
-.CONTENT {
+.BASIC {
   color: #919623;
 
   font-family: "Cafe24 Ssurround";
@@ -168,229 +168,116 @@ body {
 .span__menu:hover {
   color: #919623;
 }
-.banner {
-  position: absolute;
-  width: 78.75%;
-  height: 185px;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 92px;
-}
-#banner_img {
-  width: 100%;
-  height: 185px;
-  object-fit: cover;
-}
 
-#category {
-  position: absolute;
-
-  left: 50%;
-  transform: translateX(-50%);
-  top: 55px;
-
-  font-family: "Alfa Slab One";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 48px;
-
-  color: #f2f2f2;
-}
-#about_category {
-  position: absolute;
-
-  left: 50%;
-  transform: translateX(-50%);
-  top: 107px;
-
+.title_big {
   font-family: "AppleSDGothicNeoB00";
   font-style: normal;
   font-weight: 400;
-  font-size: 26px;
-  line-height: 35px;
-
-  color: #dadada;
-}
-
-.box_article1 {
+  font-size: 40px;
+  line-height: 56px;
   position: absolute;
-  width: 38%;
-  height: 475px;
+  width: 344px;
+  height: 56px;
+  left: 10.5%;
+  top: 60px;
+  color: #000000;
+}
+.box_article_info {
+  width: 262px;
+  height: 18px;
+  position: absolute;
   left: 10.6%;
-  top: 318px;
-
-  background: rgba(255, 255, 255, 0.7);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  top: 162px;
+  display: flex;
+  justify-content: space-between;
 }
-
-#content_img1 {
-  position: absolute;
-  width: 96.43%;
-  height: 353px;
-  left: 50%;
-  top: 10px;
-  transform: translateX(-50%);
-  object-fit: cover;
-}
-
-.font_tag {
-  position: absolute;
-  left: 10px;
+.font_article_info {
   font-family: "AppleSDGothicNeoL00";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-
-  color: #787878;
+  color: #424242;
 }
-
-.box_article1 > .font_tag {
-  top: 373px;
-}
-
-.font_title {
+.article_line {
   position: absolute;
+  width: 90%;
+  height: 0px;
+  left: 5%;
+  top: 210px;
 
-  left: 10px;
+  border: 0.5px solid #d9d9d9;
+}
+.article_mainimg {
+  position: absolute;
+  width: 78.8%;
+  height: 498px;
+  left: 10.6%;
+  top: 230px;
+  background: url("source/mafia_basic/a1_img1.jpg");
+  object-fit: cover;
+}
+.title_small {
+  position: absolute;
+  width: 623px;
+  height: 42px;
+  left: 10.6%;
+  top: 745px;
+
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  /* identical to box height */
+
+  letter-spacing: -0.05em;
+
+  color: #000000;
+}
+.title_color {
+  position: absolute;
+  width: 288px;
+  height: 35px;
+  left: 10.6%;
+  top: 810px;
 
   font-family: "AppleSDGothicNeoM00";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 35px;
+  /* identical to box height, or 175% */
 
-  color: #000000;
+  letter-spacing: -0.05em;
+
+  color: #4c5000;
 }
 
-.box_article1 > .font_title {
-  top: 400px;
-}
+.title_color::after {
+  content: "";
+  width: 288px;
+  height: 8px;
 
-.font_contents {
+  background: rgba(145, 150, 35, 0.3);
   position: absolute;
-
-  left: 10px;
-
-  font-family: "AppleSDGothicNeoL00";
+  bottom: 10px;
+  left: 0px;
+  z-index: -1;
+}
+.article {
+  position: absolute;
+  width: 78.8%;
+  height: 140px;
+  left: 10.6%;
+  top: 887px;
+  text-align: justify;
+  font-family: "AppleSDGothicNeoM00";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  color: #000000;
-}
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: -0.05em;
 
-.box_article1 > .font_contents {
-  bottom: 10px;
-}
-
-.box_article2 {
-  position: absolute;
-  width: 38%;
-  height: 345px;
-  right: 10.6%;
-  top: 317px;
-
-  background: rgba(255, 255, 255, 0.7);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
-}
-#content_img2 {
-  position: absolute;
-  width: 96.43%;
-  height: 223px;
-  left: 50%;
-  top: 10px;
-  transform: translateX(-50%);
-  object-fit: cover;
-}
-.box_article2 > .font_tag {
-  top: 243px;
-}
-.box_article2 > .font_title {
-  top: 270px;
-}
-.box_article2 > .font_contents {
-  bottom: 10px;
-}
-
-.box_article3 {
-  position: absolute;
-  width: 38%;
-  height: 536px;
-  left: 10.6%;
-  top: 823px;
-
-  background: rgba(255, 255, 255, 0.7);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
-}
-#content_img3 {
-  position: absolute;
-  width: 96.43%;
-  height: 412px;
-  left: 50%;
-  top: 10px;
-  transform: translateX(-50%);
-  object-fit: cover;
-}
-.box_article3 > .font_tag {
-  top: 434px;
-}
-.box_article3 > .font_title {
-  top: 460px;
-}
-.box_article3 > .font_contents {
-  bottom: 10px;
-}
-
-.box_article4 {
-  position: absolute;
-  width: 38%;
-  height: 473px;
-  right: 10.6%;
-  top: 692px;
-
-  background: rgba(255, 255, 255, 0.7);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
-}
-#content_img4 {
-  position: absolute;
-  width: 96.43%;
-  height: 351px;
-  left: 50%;
-  top: 10px;
-  transform: translateX(-50%);
-  object-fit: cover;
-}
-.box_article4 > .font_tag {
-  top: 372px;
-}
-.box_article4 > .font_title {
-  top: 400px;
-}
-.box_article4 > .font_contents {
-  bottom: 10px;
-}
-
-.footer {
-  position: absolute;
-  width: 100%;
-  height: 80px;
-  left: 0%;
-  top: 1600px;
-  background: #dddddd;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 3;
-}
-
-#c_img {
-  position: absolute;
-  width: 240px;
-  height: 363px;
-  right: 17.36%;
-  top: 1237px;
-
-  background: url("source/content_bottom_img.svg");
+  color: #555555;
 }
