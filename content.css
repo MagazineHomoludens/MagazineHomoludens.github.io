@@ -168,6 +168,8 @@ body {
 .span__menu:hover {
   color: #919623;
 }
+
+/*배너 이미지*/
 .banner {
   position: absolute;
   width: 78.75%;

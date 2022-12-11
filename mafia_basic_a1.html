@@ -9,11 +9,16 @@
       href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
       rel="stylesheet"
     />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homoludens-MAFIA-BASIC</title>
   </head>
-  <body>
+  <body
+    oncontextmenu="return false"
+    ondragstart="return false"
+    onselectstart="return false"
+  >
     <!-- 헤더-->
     <header>
       <div class="box__header">
@@ -58,28 +63,133 @@
     </header>
 
     <!--기사 제목 및 정보-->
-    <h1 class="title_big">마피아 게임 기본 규칙</h1>
-    <div class="box_article_info">
-      <span class="font_article_info">BASIC</span>
-      <span class="font_article_info">|</span>
-      <span class="font_article_info">최윤하</span>
-      <span class="font_article_info">|</span>
-      <span class="font_article_info">2022.09.16</span>
+    <div class="article_line"></div>
+    <div class="box_all" style="cursor: default">
+      <h1 class="title_big">마피아 게임 기본 규칙</h1>
+      <div class="box_article_info">
+        <span class="font_article_info">BASIC</span>
+        <span class="font_article_info">|</span>
+        <span class="font_article_info">Y</span>
+        <span class="font_article_info">|</span>
+        <span class="font_article_info">2022.12.15</span>
+      </div>
+
+      <!--기사 이미지 및 내용-->
+      <img class="article_mainimg" src="source/mafia_basic/a1_img1.jpg" />
+      <h2 class="title_small">시민 VS 마피아의 흥미진진한 심리 싸움!</h2>
+      <h3 class="title_color">마피아들의 거짓말을 눈치챌 수 있을까?</h3>
+      <p class="article">
+        마피아 게임은 단순하게 시민과 마피아의 대결이라고 설명할 수 있다. 모두
+        정체를 숨긴 채 게임을 시작하며, 마피아끼리는 서로 정체를 공유할 수 있다.
+        시민들은 마피아가 누구인지 잡아내면 승리하고, 마피아는 살아있는 시민들의
+        수가 마피아의 수와 같아질 때까지 시민들을 죽이면 승리한다. 기본적으로
+        시민들의 수가 마피아의 수보다 최소 2명 이상 많아야 게임 진행이 가능하다.
+        오프라인에서 플레이 할 경우 중립적으로 게임을 진행해 줄 사회자도
+        필요하다.
+      </p>
+      <h2 class="title_small2">
+        <밤>은 마피아들의 활동 시간! 의사는 살려야 하고, 경찰은 추적해야 한다.
+      </h2>
+      <p class="article2">
+        게임에서는 ‘밤’과 ‘낮’이 번갈아 일어난다. 밤에는 직업을 가진 인물들이
+        각자의 직업에 해당하는 ‘행동’을 할 수 있다. 오프라인 게임에서는 직업이
+        너무 많아지면 게임 진행이 복잡해지므로 ‘마피아, 의사, 경찰’ 정도만
+        설정하여 진행하는 일이 많다. 이 페이지에서도 가장 기본적인 직업들만
+        소개하고 있다. 하지만 이외에도 상황에 따라 매우 다양한 직업들을 추가하여
+        게임을 즐길 수 있다.
+      </p>
+      <!--역할 소개 이미지-->
+      <div class="roleimg"></div>
+      <!--<낮>이 되면 인민재판~-->
+      <h2 class="title_small3">
+        <낮>이 되면 인민 재판이 시작된다. 밤 동안 일어난 일을 추리해라!
+      </h2>
+      <p class="article3">
+        ‘밤’에 각 인물들이 모든 행동을 끝내면, ‘낮’이 된다. 시민들은 낮 동안
+        회의를 통해 마피아일 것 같은 사람을 잡아내야 한다. 낮이 시작되자마자
+        사회자는 밤사이 일어난 행동들의 결과를 알려준다. 예를 들어, 마피아가 A를
+        죽이는 데 성공했으면, “어젯밤에 A가 죽었습니다.”라고말하고, 만약
+        마피아가 A를 죽이려고 시도했으나 의사도 A를 지목하여 살렸으면, “어젯밤에
+        아무도 죽지 않았습니다.”라고 말한다. 살아 있는 사람들은 이 결과를 듣고
+        밤사이에 일어난 일을 추리하여 최종적으로 마피아로 예상되는 인물 한 명을
+        선출한다. 최종적으로 선출된 인물은 1~2분 정도의 최후 변론 시간을 가질 수
+        있다. 최후 변론을 들은 후, 다른 사람들은 그 인물을 죽일지 살릴지
+        투표한다. 다수결을 통해살리기로 결정되면 다시 밤이 된다. 만약 그 인물을
+        죽이기로 결정되면 해당 인물은 죽고, 사회자는 그 인물이 시민인지
+        마피아인지 밝힌다. 이후 다시 밤과 낮을 반복한다. 이러한 방식으로
+        시민들이 투표를 통해 마피아를 모두 잡아내면 시민의 승리다. 하지만
+        마피아가 정체를 잘 숨겨 시민들의 수와 마피아의 수가 같아지면 마피아의
+        승리다.
+      </p>
+      <h3 class="title_color2">< 전체 게임 진행 과정 정리 ></h3>
+      <p class="article4">
+        1. 게임을 진행할 인원들이 동그랗게 원형으로 모여 앉는다. <br /><br />2.
+        게임 참여자들이 눈을 감고 있을 동안 사회자가 참여자들에게 직업을 배정해
+        준다. 시민의 수가 마피아의 수 보다 최소 2배 이상 많아야원활한 게임
+        진행이 가능하며, 마피아 외의 직업들은 직업당 1명씩 선출한다.
+        <br /><br />3. 직업 배정이 완료되면 첫 번째 밤이 시작된다. 사회자가
+        “밤이 되었습니다. 마피아는 고개를 들어주세요.”라고 말하면, 마피아들만
+        조용히눈을 뜨고 서로 정체를 공유한다. 마피아들은 조용히 죽일 사람 한
+        명을 선택하여 사회자에게 알린다. <br /><br />4. 마피아들의 지목이
+        끝나면, 사회자는 의사와 경찰 등 다른 직업들도 차례로 일어나게 하여
+        행동을 수행할 수 있게 한다. <br /><br />5. 모든 직업의 행동이 완료되면,
+        사회자는 “낮이 되었습니다. 모두 고개를 들어주세요.” 라고 말한다.
+        사회자는 밤 사이 일어났던 행동의 결과를 정리하여 “밤 사이 00가
+        살해당했습니다.” 혹은 “어젯밤엔 아무도 죽지 않았습니다.” 라고 말한다.
+        <br /><br />6. 살아 있는 사람들은 회의를 통해 누가 마피아일지 추리한다.
+        죽은 사람은 힌트가 될 수 있는 그 어떤 말과 행동도 하면 안 된다.
+        <br /><br />7. 회의를 통해 마피아일 것 같은 사람이 한 명 선출되면, 그
+        사람은 최후변론 시간을 갖는다. 다른 사람들은 최후 변론을 듣고 그 사람을
+        죽일지 살릴지 다시 투표한다. <br /><br />8. 투표 결과, 지목 당한 사람이
+        살았으면 다시 밤을 시작한다. 만약 죽었으면, 사회자는 그가 마피아인지
+        여부를 밝힌다. 이때, 그 사람이 의사나 경찰 등 직업이 있는 시민이더라도
+        그 직업은 밝히지 않는다. 이후 다시 밤을 시작한다.<br /><br />9. 마피아를
+        모두 잡아내거나 마피아의 수가 시민의 수와 같아질 때까지 밤과 낮을
+        반복한다.
+      </p>
     </div>
 
-    <div class="article_line"></div>
+    <div class="box_editer">
+      <img class="img_editer" src="source/mafia_basic/ch_y.svg" />
+    </div>
+    <!--이건 어때요? 기사 추천 박스-->
+    <div class="recommend_bigbox">
+      <span class="recommend_title">이런 건 어때요?</span>
 
-    <!--기사 이미지 및 내용-->
-    <img class="article_mainimg" src="source/mafia_basic/a1_img1.jpg" />
-    <h2 class="title_small">시민 VS 마피아의 흥미진진한 심리 싸움!</h2>
-    <h3 class="title_color">마피아들의 거짓말을 눈치챌 수 있을까?</h3>
-    <p class="article">
-      마피아 게임은 단순하게 시민과 마피아의 대결이라고 설명할 수 있다. 모두
-      정체를 숨긴 채 게임을 시작하며, 마피아끼리는 서로 정체를 공유할 수 있다.
-      시민들은 마피아가 누구인지 잡아내면 승리하고, 마피아는 살아있는 시민들의
-      수가 마피아의 수와 같아질 때까지 시민들을 죽이면 승리한다. 기본적으로
-      시민들의 수가 마피아의 수보다 최소 2명 이상 많아야 게임 진행이 가능하다.
-      오프라인에서 플레이 할 경우 중립적으로 게임을 진행해 줄 사회자도 필요하다.
-    </p>
+      <div class="recommend_articlebox1">
+        <div class="recommend_img"></div>
+        <span class="recommend_tag">#노래 #플레이리스트 #배경음악 #BGM</span>
+        <span class="recommend_articletitle"
+          >마피아 게임에서 절대 빼놓을 수 없는 배경 음악</span
+        >
+        <span class="recommend_articlecontents"
+          >더욱 음산하고 재미있게 마피아 게임을 즐기자</span
+        >
+      </div>
+
+      <div class="recommend_articlebox2">
+        <div class="recommend_img"></div>
+        <span class="recommend_tag">#규칙 #룰 #게임 #마피아전문가</span>
+        <span class="recommend_articletitle">마피아 게임 진심러 추천 규칙</span>
+        <span class="recommend_articlecontents"
+          >자칭 마피아 게임 전문가가 추천하는 마피아 게임 규칙</span
+        >
+      </div>
+
+      <div class="recommend_articlebox3">
+        <div class="recommend_img"></div>
+        <span class="recommend_tag">#공간 #프로그램 #문화 #모임 #소셜클럽</span>
+        <span class="recommend_articletitle"
+          >낯선 사람들과 즐기는 특별한 마피아 게임</span
+        >
+        <span class="recommend_articlecontents"
+          >혼자서도 할 수 있어! 마피아 게임</span
+        >
+      </div>
+    </div>
+
+    <footer class="footer">
+      <img src="source/footer.svg" />
+    </footer>
   </body>
 </html>

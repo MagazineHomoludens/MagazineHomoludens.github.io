@@ -5,11 +5,12 @@
   font-weight: normal;
   font-style: normal;
 }
+
 html {
   font-size: 10px;
 }
 body {
-  height: 5898px;
+  height: 10790px;
   width: 100%;
   background-color: #f2f2f2;
   margin: 0;
@@ -78,7 +79,7 @@ body {
   top: 47.5px;
 }
 
-.BASIC {
+.CONTENT {
   color: #919623;
 
   font-family: "Cafe24 Ssurround";
@@ -175,7 +176,7 @@ body {
 
 .box_all {
   width: 99.3rem;
-  height: 400rem;
+  height: 300rem;
 
   position: absolute;
   left: 50%;
@@ -222,7 +223,7 @@ body {
   border: 0.5px solid #d9d9d9;
 }
 
-/*기사 메인 이미지*/
+/*메인 이미지*/
 .article_mainimg {
   position: absolute;
   width: 99.3rem;
@@ -232,22 +233,18 @@ body {
 
   object-fit: cover;
 }
-
-/*본문 시작*/
-
+/*본문*/
 .title_small {
   position: absolute;
   width: 99.3rem;
   height: 4.2rem;
   left: 0%;
-  top: 74.5rem;
 
   font-family: "AppleSDGothicNeoM00";
   font-style: normal;
   font-weight: 400;
   font-size: 3.2rem;
   line-height: 4.2rem;
-  /* identical to box height */
 
   letter-spacing: -0.05em;
 
@@ -258,8 +255,6 @@ body {
   width: 99.3rem;
   height: 3.5rem;
   left: 0%;
-  top: 80.5rem;
-
   font-family: "AppleSDGothicNeoM00";
   font-style: normal;
   font-weight: 400;
@@ -272,7 +267,7 @@ body {
 
 .title_color::after {
   content: "";
-  width: 30rem;
+  width: 28.8rem;
   height: 0.8rem;
 
   background: rgba(145, 150, 35, 0.3);
@@ -286,7 +281,6 @@ body {
   width: 99.3rem;
   height: 14rem;
   left: 0%;
-  top: 85.5rem;
   text-align: justify;
   font-family: "AppleSDGothicNeoM00";
   font-style: normal;
@@ -298,91 +292,283 @@ body {
   color: #555555;
 }
 
-/*다비도프 편지 이미지*/
-.a2_img2 {
-  position: absolute;
-  width: 101.8rem;
-  height: 50.1rem;
-  left: -1%;
-  top: 111.5rem;
-  object-fit: fill;
+/*위치 지정*/
+.a1 {
+  top: 75rem;
+}
+.t1 {
+  top: 135.5rem;
+}
+.tc1 {
+  top: 141.5rem;
+}
+.tc1::after {
+  width: 7.6rem;
 }
 
-.article2 {
+/*밤 노래 박스 */
+.밤노래박스 {
   position: absolute;
-  width: 99.3rem;
-  height: 48.5rem;
-  left: 0%;
-  top: 163rem;
-
-  font-family: "AppleSDGothicNeoM00";
+  width: 92rem;
+  height: 130rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 151rem;
+  background: #e3e3e3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.노래장르 {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+  font-family: "AppleSDGothicNeoB00";
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
-  line-height: 35px;
+  line-height: 3rem;
+
   letter-spacing: -0.05em;
 
   color: #555555;
 }
-
-.a2_img3 {
+.밤노래박스 > li {
   position: absolute;
-  width: 106.4rem;
-  height: 192.7rem;
-  object-fit: fill;
-  top: 215rem;
-  left: -4%;
-}
-.title_color2 {
-  position: absolute;
-  width: 99.3rem;
-  height: 3.5rem;
-  left: 0%;
-  top: 406rem;
-
+  top: 11rem;
+  left: 6rem;
   font-family: "AppleSDGothicNeoM00";
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
-  line-height: 3.5rem;
-  letter-spacing: -0.05em;
-
-  color: #4c5000;
-}
-
-.title_color2::after {
-  content: "";
-  width: 32.2rem;
-  height: 0.8rem;
-
-  background: rgba(145, 150, 35, 0.3);
-  position: absolute;
-  bottom: 1rem;
-  left: 0px;
-  z-index: -1;
-}
-.article3 {
-  position: absolute;
-  width: 99.3rem;
-  height: 76rem;
-  top: 411rem;
-  font-family: "AppleSDGothicNeoM00";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2rem;
-  line-height: 35px;
+  line-height: 3rem;
   letter-spacing: -0.05em;
 
   color: #555555;
 }
+.video1 {
+  position: absolute;
+  top: 5rem;
+  left: 2.5rem;
+}
+.밤노래박스 li:nth-child(3) {
+  position: absolute;
+  top: 63rem;
+}
+.밤노래박스 li:nth-child(4) {
+  position: absolute;
+  top: 115rem;
+}
+.밤노래박스 > li > a {
+  color: #555555;
+}
+.밤노래박스 li:nth-child(5) {
+  position: absolute;
+  top: 121.5rem;
+}
 
+.t2 {
+  top: 288rem;
+}
+.tc2 {
+  top: 294rem;
+}
+.tc2::after {
+  width: 12.8rem;
+}
+
+/*아침 토론 노래 박스 */
+.아침토론박스 {
+  position: absolute;
+  width: 92rem;
+  height: 117rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 303.5rem;
+  background: #e3e3e3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.아침토론박스 > li {
+  position: absolute;
+  top: 11rem;
+  left: 6rem;
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: -0.05em;
+
+  color: #555555;
+}
+.아침토론박스 li:nth-child(3) {
+  position: absolute;
+  top: 63rem;
+}
+
+/*아침 투표 노래 박스*/
+
+.t3 {
+  top: 428rem;
+}
+.tc3 {
+  top: 434rem;
+}
+.tc3::after {
+  width: 12.8rem;
+}
+
+.아침투표박스 {
+  position: absolute;
+  width: 92rem;
+  height: 117rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 444rem;
+  background: #e3e3e3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.아침투표박스 > li {
+  position: absolute;
+  top: 11rem;
+  left: 6rem;
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: -0.05em;
+
+  color: #555555;
+}
+.아침투표박스 li:nth-child(3) {
+  position: absolute;
+  top: 63rem;
+}
+/*최후의 변론 노래*/
+.t4 {
+  top: 568rem;
+}
+.tc4 {
+  top: 574rem;
+}
+.tc4::after {
+  width: 15rem;
+}
+.최후변론박스 {
+  position: absolute;
+  width: 92rem;
+  height: 117rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 584rem;
+  background: #e3e3e3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.최후변론박스 > li {
+  position: absolute;
+  top: 11rem;
+  left: 6rem;
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: -0.05em;
+
+  color: #555555;
+}
+.최후변론박스 li:nth-child(3) {
+  position: absolute;
+  top: 63rem;
+}
+
+/*최종 투표 노래*/
+.t5 {
+  top: 708rem;
+}
+.tc5 {
+  top: 714rem;
+}
+.tc5::after {
+  width: 13rem;
+}
+.최종투표박스 {
+  position: absolute;
+  width: 92rem;
+  height: 168rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 724rem;
+  background: #e3e3e3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.최종투표박스 > li {
+  position: absolute;
+  top: 11rem;
+  left: 6rem;
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: -0.05em;
+
+  color: #555555;
+}
+.최종투표박스 li:nth-child(3) {
+  position: absolute;
+  top: 63rem;
+}
+.최종투표박스 li:nth-child(4) {
+  position: absolute;
+  top: 115rem;
+}
+
+/*최종 마피아 승리 노래*/
+.t6 {
+  top: 901rem;
+}
+.tc6 {
+  top: 907rem;
+}
+.tc6::after {
+  width: 18.5rem;
+}
+.최종승리박스 {
+  position: absolute;
+  width: 92rem;
+  height: 64.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 917rem;
+  background: #e3e3e3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.최종승리박스 > li {
+  position: absolute;
+  top: 11rem;
+  left: 6rem;
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: -0.05em;
+
+  color: #555555;
+}
 /*에디터 박스*/
 .box_editer {
   position: absolute;
   width: 100%;
   height: 23rem;
   left: 0px;
-  top: 502.5rem;
+  top: 992rem;
   background: #a38fa4;
   display: flex;
   justify-content: center;
@@ -393,14 +579,14 @@ body {
   width: 520px;
   height: 123.46px;
 }
+/*이런건 어때요?*/
 
-/*이건 어때요? 추천 박스*/
 .recommend_bigbox {
   width: 99.3rem;
   height: 42rem;
 
   position: absolute;
-  top: 535.5rem;
+  top: 1025rem;
   left: 50%;
   transform: translatex(-50%);
 }
@@ -429,7 +615,7 @@ body {
   height: 20rem;
   left: 0%;
   top: 0%;
-  background: url("source/mafia_basic/a2_recommend1.jpg");
+  background: url("source/mafia_content/a1_recommend1.jpg");
 }
 
 .recommend_tag {
@@ -497,7 +683,7 @@ body {
 }
 
 .recommend_articlebox2 > .recommend_articlecontents {
-  top: 27rem;
+  top: 30rem;
 }
 
 /*세번째 기사 추천 박스*/
@@ -512,20 +698,18 @@ body {
 }
 
 .recommend_articlebox3 > .recommend_img {
-  background: url("source/mafia_basic/a1_recommend2.jpg");
+  background: url("source/mafia_content/a1_recommend3.jpg");
 }
 
 .recommend_articlebox3 > .recommend_articlecontents {
-  top: 30rem;
+  top: 27rem;
 }
-
-/*푸터*/
 .footer {
   position: absolute;
   width: 100%;
   height: 8rem;
   left: 0%;
-  top: 5978px;
+  top: 1087rem;
   background: #dddddd;
   display: flex;
   justify-content: center;

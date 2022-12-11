@@ -5,11 +5,12 @@
   font-weight: normal;
   font-style: normal;
 }
+
 html {
   font-size: 10px;
 }
 body {
-  height: 5898px;
+  height: 9655px;
   width: 100%;
   background-color: #f2f2f2;
   margin: 0;
@@ -78,7 +79,7 @@ body {
   top: 47.5px;
 }
 
-.BASIC {
+.CONTENT {
   color: #919623;
 
   font-family: "Cafe24 Ssurround";
@@ -175,7 +176,7 @@ body {
 
 .box_all {
   width: 99.3rem;
-  height: 400rem;
+  height: 700rem;
 
   position: absolute;
   left: 50%;
@@ -222,7 +223,7 @@ body {
   border: 0.5px solid #d9d9d9;
 }
 
-/*기사 메인 이미지*/
+/*메인 이미지*/
 .article_mainimg {
   position: absolute;
   width: 99.3rem;
@@ -233,21 +234,18 @@ body {
   object-fit: cover;
 }
 
-/*본문 시작*/
-
+/*본문*/
 .title_small {
   position: absolute;
   width: 99.3rem;
   height: 4.2rem;
   left: 0%;
-  top: 74.5rem;
 
   font-family: "AppleSDGothicNeoM00";
   font-style: normal;
   font-weight: 400;
   font-size: 3.2rem;
   line-height: 4.2rem;
-  /* identical to box height */
 
   letter-spacing: -0.05em;
 
@@ -258,8 +256,6 @@ body {
   width: 99.3rem;
   height: 3.5rem;
   left: 0%;
-  top: 80.5rem;
-
   font-family: "AppleSDGothicNeoM00";
   font-style: normal;
   font-weight: 400;
@@ -272,7 +268,7 @@ body {
 
 .title_color::after {
   content: "";
-  width: 30rem;
+  width: 28.8rem;
   height: 0.8rem;
 
   background: rgba(145, 150, 35, 0.3);
@@ -286,7 +282,6 @@ body {
   width: 99.3rem;
   height: 14rem;
   left: 0%;
-  top: 85.5rem;
   text-align: justify;
   font-family: "AppleSDGothicNeoM00";
   font-style: normal;
@@ -298,109 +293,481 @@ body {
   color: #555555;
 }
 
-/*다비도프 편지 이미지*/
-.a2_img2 {
-  position: absolute;
-  width: 101.8rem;
-  height: 50.1rem;
-  left: -1%;
-  top: 111.5rem;
-  object-fit: fill;
+/*위치 지정*/
+.a1 {
+  top: 74.5rem;
 }
 
-.article2 {
+.a1_img2 {
+  position: absolute;
+  width: 70rem;
+  height: 30rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 102.5rem;
+  background: url("source/mafia_content/a1_img2.jpg");
+}
+
+.a1_img2_svg {
+  position: absolute;
+  width: 430px;
+  height: 220px;
+  right: 35px;
+  top: 35px;
+}
+
+.t1 {
+  top: 135rem;
+}
+.tc1 {
+  top: 141rem;
+}
+.tc1::after {
+  width: 12.5rem;
+}
+
+.a1_img3 {
   position: absolute;
   width: 99.3rem;
-  height: 48.5rem;
+  height: 66rem;
+  top: 150.5rem;
   left: 0%;
-  top: 163rem;
+}
 
-  font-family: "AppleSDGothicNeoM00";
+.a2 {
+  top: 218.5rem;
+}
+
+.주요촬영지 {
+  position: absolute;
+  width: 92rem;
+  height: 11rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 249rem;
+
+  background: #e3e3e3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.주요촬영지 > span {
+  position: absolute;
+  width: 84rem;
+  height: 3rem;
+
+  font-family: "AppleSDGothicNeoB00";
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
-  line-height: 35px;
+  line-height: 3rem;
   letter-spacing: -0.05em;
 
   color: #555555;
 }
 
-.a2_img3 {
-  position: absolute;
-  width: 106.4rem;
-  height: 192.7rem;
-  object-fit: fill;
-  top: 215rem;
-  left: -4%;
+.주요촬영지 > span > span {
+  font-family: "AppleSDGothicNeoM00";
 }
-.title_color2 {
+
+.a1_img4 {
   position: absolute;
   width: 99.3rem;
-  height: 3.5rem;
+  height: 48.5rem;
   left: 0%;
-  top: 406rem;
+  top: 265.5rem;
+}
+
+.부산세관 {
+  position: absolute;
+  width: 92rem;
+  height: 14rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 320rem;
+
+  background: #e3e3e3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.주요촬영지 {
+  position: absolute;
+  width: 92rem;
+  height: 11rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 249rem;
+
+  background: #e3e3e3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.주요촬영지 > span {
+  position: absolute;
+  width: 84rem;
+  height: 3rem;
+
+  font-family: "AppleSDGothicNeoB00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: -0.05em;
+
+  color: #555555;
+}
+
+.주요촬영지 > span > span {
+  font-family: "AppleSDGothicNeoM00";
+}
+
+.a1_img4 {
+  position: absolute;
+  width: 99.3rem;
+  height: 49.8rem;
+  left: 0%;
+  top: 265.5rem;
+}
+
+.부산세관 {
+  position: absolute;
+  width: 92rem;
+  height: 14rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 320.5rem;
+
+  background: #e3e3e3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.촬영지이름 {
+  position: absolute;
+
+  left: 4.4rem;
+  top: 4.4rem;
 
   font-family: "AppleSDGothicNeoM00";
   font-style: normal;
   font-weight: 400;
-  font-size: 2rem;
-  line-height: 3.5rem;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: right;
   letter-spacing: -0.05em;
 
   color: #4c5000;
 }
 
-.title_color2::after {
+.촬영지이름::after {
   content: "";
-  width: 32.2rem;
+  width: 7rem;
   height: 0.8rem;
 
   background: rgba(145, 150, 35, 0.3);
   position: absolute;
-  bottom: 1rem;
+  bottom: 0.5rem;
   left: 0px;
   z-index: -1;
 }
-.article3 {
+
+.촬영지설명 {
   position: absolute;
-  width: 99.3rem;
-  height: 76rem;
-  top: 411rem;
+  width: 70.3rem;
+  height: 6rem;
+  right: 7.7rem;
+  top: 4.15rem;
+
   font-family: "AppleSDGothicNeoM00";
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
-  line-height: 35px;
+  line-height: 3rem;
+
   letter-spacing: -0.05em;
 
   color: #555555;
 }
 
-/*에디터 박스*/
+.a1_img5 {
+  position: absolute;
+  width: 70rem;
+  height: 30rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 344rem;
+  background: url("source/mafia_content/a1_img5.jpg");
+}
+
+.a1_img5_svg {
+  position: absolute;
+  width: 430px;
+  height: 220px;
+  right: 35px;
+  top: 35px;
+}
+
+.t2 {
+  top: 376rem;
+}
+.tc2 {
+  top: 382rem;
+}
+.tc2::after {
+  width: 14.5rem;
+}
+.a1_img6 {
+  position: absolute;
+  width: 99.3rem;
+  height: 62rem;
+  left: 0%;
+  top: 391.5rem;
+}
+.a3 {
+  top: 456rem;
+}
+
+.주요촬영지2 {
+  position: absolute;
+  width: 92rem;
+  height: 11rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 493.5rem;
+
+  background: #e3e3e3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.주요촬영지2 > span {
+  position: absolute;
+  width: 84rem;
+  height: 3rem;
+
+  font-family: "AppleSDGothicNeoB00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: -0.05em;
+
+  color: #555555;
+}
+
+.주요촬영지2 > span > span {
+  font-family: "AppleSDGothicNeoM00";
+}
+
+.a1_img7 {
+  position: absolute;
+  width: 99.3rem;
+  height: 64.7rem;
+  left: 0;
+  top: 509.5rem;
+}
+
+.빈해원 {
+  position: absolute;
+  width: 92rem;
+  height: 14rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 579.2rem;
+
+  background: #e3e3e3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.빈해원 > .촬영지이름::after {
+  width: 5rem;
+}
+
+/*차이나차운*/
+
+.a1_img8 {
+  position: absolute;
+  width: 70rem;
+  height: 30rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 604rem;
+  background: url("source/mafia_content/a1_img8.jpg");
+}
+
+.a1_img8_svg {
+  position: absolute;
+  width: 430px;
+  height: 220px;
+  right: 35px;
+  top: 35px;
+}
+
+.t3 {
+  top: 635.8rem;
+}
+.tc3 {
+  top: 642rem;
+}
+.tc3::after {
+  width: 10.4rem;
+}
+
+.a1_img9 {
+  position: absolute;
+  width: 99.3rem;
+  height: 66rem;
+  left: 0%;
+  top: 651.5rem;
+}
+.a4 {
+  top: 720rem;
+}
+
+.주요촬영지3 {
+  position: absolute;
+  width: 92rem;
+  height: 11rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 750.5rem;
+
+  background: #e3e3e3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.주요촬영지3 > span {
+  position: absolute;
+  width: 84rem;
+  height: 3rem;
+
+  font-family: "AppleSDGothicNeoB00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: -0.05em;
+
+  color: #555555;
+}
+
+.주요촬영지3 > span > span {
+  font-family: "AppleSDGothicNeoM00";
+}
+.a1_img10 {
+  position: absolute;
+  width: 99.3rem;
+  height: 65.8rem;
+  left: 0%;
+  top: 767rem;
+}
+
+.송림동 {
+  position: absolute;
+  width: 92rem;
+  height: 14rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 838rem;
+
+  background: #e3e3e3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.송림동 > .촬영지이름 {
+  position: absolute;
+
+  left: 4.4rem;
+  top: 4.4rem;
+  width: 6.7rem;
+  height: 7.8rem;
+
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: right;
+  letter-spacing: -0.05em;
+
+  color: #4c5000;
+}
+
+.송림동 > .촬영지이름::after {
+  content: "";
+  width: 5rem;
+  height: 0.8rem;
+
+  background: rgba(145, 150, 35, 0.3);
+  position: absolute;
+  bottom: 5.6rem;
+  left: 1.8rem;
+  z-index: -1;
+}
+.송림동 > .촬영지라인 {
+  width: 6.5rem;
+  height: 0.8rem;
+
+  background: rgba(145, 150, 35, 0.3);
+  position: absolute;
+  bottom: 5rem;
+  left: 4.8rem;
+  z-index: -1;
+}
+.송림동 > .촬영지설명 {
+  position: absolute;
+  width: 70.3rem;
+  height: 6rem;
+  right: 7.7rem;
+  top: 4.15rem;
+
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+
+  letter-spacing: -0.05em;
+
+  color: #555555;
+}
+
+/*에디터박스*/
+
 .box_editer {
   position: absolute;
   width: 100%;
   height: 23rem;
   left: 0px;
-  top: 502.5rem;
-  background: #a38fa4;
+  top: 862.5rem;
+  background: #a6d8df;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .img_editer {
-  width: 520px;
-  height: 123.46px;
+  width: 45.5rem;
+  height: 12.4rem;
 }
 
-/*이건 어때요? 추천 박스*/
+/*이건 어때요?*/
+
 .recommend_bigbox {
   width: 99.3rem;
   height: 42rem;
 
   position: absolute;
-  top: 535.5rem;
+  top: 895.5rem;
   left: 50%;
   transform: translatex(-50%);
 }
@@ -429,7 +796,7 @@ body {
   height: 20rem;
   left: 0%;
   top: 0%;
-  background: url("source/mafia_basic/a2_recommend1.jpg");
+  background: url("source/mafia_content/a1_recommend1.jpg");
 }
 
 .recommend_tag {
@@ -493,7 +860,7 @@ body {
   bottom: 0%;
 }
 .recommend_articlebox2 > .recommend_img {
-  background: url("source/mafia_basic/a2_recommend2.jpg");
+  background: url("source/mafia_content/a1_recommend2.jpg");
 }
 
 .recommend_articlebox2 > .recommend_articlecontents {
@@ -512,20 +879,18 @@ body {
 }
 
 .recommend_articlebox3 > .recommend_img {
-  background: url("source/mafia_basic/a1_recommend2.jpg");
+  background: url("source/mafia_basic/a4_recommend3.jpg");
 }
 
 .recommend_articlebox3 > .recommend_articlecontents {
-  top: 30rem;
+  top: 27rem;
 }
-
-/*푸터*/
 .footer {
   position: absolute;
   width: 100%;
   height: 8rem;
   left: 0%;
-  top: 5978px;
+  top: 9575px;
   background: #dddddd;
   display: flex;
   justify-content: center;

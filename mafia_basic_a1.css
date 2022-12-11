@@ -5,9 +5,11 @@
   font-weight: normal;
   font-style: normal;
 }
-
+html {
+  font-size: 10px;
+}
 body {
-  height: 4275px;
+  height: 4380px;
   width: 100%;
   background-color: #f2f2f2;
   margin: 0;
@@ -168,26 +170,35 @@ body {
 .span__menu:hover {
   color: #919623;
 }
+/*기사 시작*/
 
+.box_all {
+  width: 99.3rem;
+  height: 400rem;
+
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
 .title_big {
   font-family: "AppleSDGothicNeoB00";
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 56px;
+  font-size: 4rem;
+  line-height: 5.6rem;
   position: absolute;
-  width: 344px;
-  height: 56px;
-  left: 10.5%;
+  width: 34.4rem;
+  height: 5.6rem;
+  left: 0%;
   top: 60px;
   color: #000000;
 }
 .box_article_info {
-  width: 262px;
-  height: 18px;
+  width: 26.2rem;
+  height: 1.8rem;
   position: absolute;
-  left: 10.6%;
-  top: 162px;
+  left: 0%;
+  top: 16.2rem;
   display: flex;
   justify-content: space-between;
 }
@@ -195,40 +206,44 @@ body {
   font-family: "AppleSDGothicNeoL00";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
   color: #424242;
 }
 .article_line {
   position: absolute;
-  width: 90%;
+  width: 96.43%;
   height: 0px;
-  left: 5%;
-  top: 210px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 21rem;
 
   border: 0.5px solid #d9d9d9;
 }
 .article_mainimg {
   position: absolute;
-  width: 78.8%;
-  height: 498px;
-  left: 10.6%;
-  top: 230px;
-  background: url("source/mafia_basic/a1_img1.jpg");
+  width: 99.3rem;
+  height: 49.8rem;
+  left: 0%;
+  top: 23rem;
+
   object-fit: cover;
 }
+
+/*본문 시작*/
+
 .title_small {
   position: absolute;
-  width: 623px;
-  height: 42px;
-  left: 10.6%;
-  top: 745px;
+  width: 62.3rem;
+  height: 4.2rem;
+  left: 0%;
+  top: 74.5rem;
 
   font-family: "AppleSDGothicNeoM00";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 42px;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
   /* identical to box height */
 
   letter-spacing: -0.05em;
@@ -237,18 +252,16 @@ body {
 }
 .title_color {
   position: absolute;
-  width: 288px;
-  height: 35px;
-  left: 10.6%;
-  top: 810px;
+  width: 28.8rem;
+  height: 3.5rem;
+  left: 0%;
+  top: 80.5rem;
 
   font-family: "AppleSDGothicNeoM00";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 35px;
-  /* identical to box height, or 175% */
-
+  font-size: 2rem;
+  line-height: 3.5rem;
   letter-spacing: -0.05em;
 
   color: #4c5000;
@@ -256,28 +269,297 @@ body {
 
 .title_color::after {
   content: "";
-  width: 288px;
-  height: 8px;
+  width: 28.8rem;
+  height: 0.8rem;
 
   background: rgba(145, 150, 35, 0.3);
   position: absolute;
-  bottom: 10px;
+  bottom: 1rem;
   left: 0px;
   z-index: -1;
 }
 .article {
   position: absolute;
-  width: 78.8%;
+  width: 99.3rem;
   height: 140px;
-  left: 10.6%;
-  top: 887px;
+  left: 0%;
+  top: 85.5rem;
   text-align: justify;
   font-family: "AppleSDGothicNeoM00";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.25rem;
-  line-height: 2.188rem;
+  font-size: 2rem;
+  line-height: 3.5rem;
   letter-spacing: -0.05em;
 
   color: #555555;
+}
+.title_small2 {
+  position: absolute;
+  width: 100%;
+  height: 4.2rem;
+  left: 0%;
+  top: 107.5rem;
+
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  letter-spacing: -0.05em;
+
+  color: #000000;
+}
+
+.article2 {
+  position: absolute;
+  width: 99.3rem;
+  height: 140px;
+  left: 0%;
+  top: 114.4rem;
+  text-align: justify;
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.05em;
+
+  color: #555555;
+}
+.roleimg {
+  position: absolute;
+  width: 94.711rem;
+  height: 68.8rem;
+  left: 0%;
+  top: 131rem;
+  background: url("source/mafia_basic/a1_img3.svg");
+}
+.title_small3 {
+  position: absolute;
+  width: 100%;
+  height: 4.2rem;
+  left: 0%;
+  top: 202rem;
+
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  letter-spacing: -0.05em;
+
+  color: #000000;
+}
+.article3 {
+  position: absolute;
+  width: 99.3rem;
+  height: 140px;
+  left: 0%;
+  top: 208.9rem;
+  text-align: justify;
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.05em;
+
+  color: #555555;
+}
+.title_color2 {
+  position: absolute;
+
+  left: 0%;
+  top: 242rem;
+
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.05em;
+
+  color: #4c5000;
+}
+.title_color2::after {
+  content: "";
+  width: 21rem;
+  height: 0.8rem;
+
+  background: rgba(145, 150, 35, 0.3);
+  position: absolute;
+  bottom: 1rem;
+  left: 0px;
+  z-index: -1;
+}
+.article4 {
+  position: absolute;
+  width: 99.3rem;
+
+  left: 0%;
+  top: 247.4rem;
+  text-align: justify;
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.05em;
+
+  color: #555555;
+}
+/*에디터 박스*/
+.box_editer {
+  position: absolute;
+  width: 100%;
+  height: 23rem;
+  left: 0px;
+  top: 335.2rem;
+  background: #a38fa4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_editer {
+  width: 520px;
+  height: 123.46px;
+}
+
+.recommend_bigbox {
+  width: 99.3rem;
+  height: 42rem;
+
+  position: absolute;
+  top: 368rem;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.recommend_title {
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.6rem;
+
+  color: #000000;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+.recommend_articlebox1 {
+  width: 30.7rem;
+  height: 318px;
+
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+}
+.recommend_img {
+  position: absolute;
+  width: 30.7rem;
+  height: 20rem;
+  left: 0%;
+  top: 0%;
+  background: url("source/mafia_basic/a1_recommend1.jpg");
+}
+
+.recommend_tag {
+  position: absolute;
+  width: 30.7rem;
+  height: 1.8rem;
+  left: 0%;
+  top: 21rem;
+
+  font-family: "AppleSDGothicNeoL00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.05em;
+
+  color: #5e5e5e;
+}
+.recommend_articletitle {
+  position: absolute;
+  width: 30.7rem;
+
+  left: 0%;
+  top: 23.2rem;
+
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: -0.05em;
+
+  color: #000000;
+}
+.recommend_articlecontents {
+  position: absolute;
+  width: 30.7rem;
+  height: 1.8rem;
+  left: 0%;
+  top: 30rem;
+
+  font-family: "AppleSDGothicNeoL00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.05em;
+
+  color: #000000;
+}
+
+/*두번째 기사 추천 박스*/
+
+.recommend_articlebox2 {
+  width: 30.7rem;
+  height: 318px;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0%;
+}
+.recommend_articlebox2 > .recommend_img {
+  background: url("source/mafia_basic/a1_recommend2.jpg");
+}
+
+.recommend_articlebox2 > .recommend_articlecontents {
+  top: 27rem;
+}
+
+/*세번째 기사 추천 박스*/
+
+.recommend_articlebox3 {
+  width: 30.7rem;
+  height: 318px;
+
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+
+.recommend_articlebox3 > .recommend_img {
+  background: url("source/mafia_basic/a1_recommend3.jpg");
+}
+
+.recommend_articlebox3 > .recommend_articlecontents {
+  top: 27rem;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  left: 0%;
+  top: 4300px;
+  background: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
 }
