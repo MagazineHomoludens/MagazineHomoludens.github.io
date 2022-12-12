@@ -1,17 +1,22 @@
-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 120px;
-  height: 30px;
-  margin-top: -15px;
-  margin-left: -60px;
-  line-height: 15px;
-  cursor: pointer;
+html {
+  font-size: 10px;
 }
+/* 모달창 4*/
+.modal_content {
+  width: 113.4rem;
+  height: 63rem;
+  background: #ebe9e9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 
-.modal1 {
   position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  cursor: default;
+}
+.modal5 {
+  position: fixed;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
@@ -20,42 +25,81 @@ button {
   display: none;
 }
 
-.modal_content {
-  width: 1134px;
-  height: 630px;
-  background: #ebe9e9;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+.m5_img1 {
+  position: absolute;
+  width: 31.6rem;
+  height: 47.6rem;
+  left: 4.5rem;
+  top: 4.5rem;
+}
 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  text-align: center;
-  box-sizing: border-box;
-  padding: 74px 0;
-  line-height: 23px;
-  cursor: default;
-}
-.m1_img1 {
-  position: absolute;
-  width: 476px;
-  height: 476px;
-  left: 45px;
-  top: 45px;
-}
-.m1_img2 {
-  position: absolute;
-  width: 784px;
-  height: 550px;
-  right: 45px;
-  top: 40px;
-}
 .close_button {
   position: absolute;
-  width: 19px;
-  height: 20px;
-  right: 45px;
-  top: 45px;
+  width: 1.9rem;
+  height: 2rem;
+  right: 4.5rem;
+  top: 4.5rem;
   cursor: pointer;
+  z-index: 3;
+}
+
+.rolling_m5 {
+  position: absolute;
+  width: 45.9rem;
+  height: 52rem;
+  right: 10.9rem;
+  top: 6.5rem;
+
+  overflow: hidden;
+}
+.안보이는영역_m5 {
+  height: 52rem;
+  width: 300%;
+  list-style: none;
+  padding-left: 0%;
+  margin-top: 0%;
+}
+.m5_img2 {
+  width: 45.9rem;
+  height: 52rem;
+  list-style: none;
+  float: left;
+}
+.m5_img3 {
+  list-style: none;
+  margin-top: 0;
+  width: 45.9rem;
+  height: 52rem;
+  border: 0;
+  margin-top: 0px;
+  padding: 0px;
+}
+.roll_left_m5 {
+  z-index: 3;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  width: 5rem;
+  height: 8.3rem;
+  left: 42rem;
+  top: 27.4rem;
+  background: url("source/mafia_memory/left.svg");
+}
+.roll_right_m5 {
+  z-index: 3;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  width: 5rem;
+  height: 8.3rem;
+  right: 1.4rem;
+  top: 27.4rem;
+  background: url("source/mafia_memory/right.svg");
+}
+.m5_img4 {
+  position: absolute;
+  width: 93.7rem;
+  height: 55rem;
+  top: 4.5rem;
+  right: 4.5rem;
 }

@@ -159,27 +159,52 @@
     <div class="modal4">
       <div class="modal_content">
         <img class="m4_img1" src="source/mafia_memory/m4_img1.jpg" />
-        <img class="m4_img2" src="source/mafia_memory/m4_img2.svg" />
+
         <img
           class="close_button"
           src="source/mafia_memory/close_button.svg"
           title="클릭하면 창이 닫힙니다."
         />
+        <button class="roll_left"></button>
+        <button class="roll_right"></button>
+        <div class="rolling">
+          <ul class="안보이는영역">
+            <li>
+              <img class="m4_img2" src="source/mafia_memory/m4_img2.svg" />
+            </li>
+            <li>
+              <img class="m4_img3" src="source/mafia_memory/m4_img3.svg" />
+            </li>
+          </ul>
+        </div>
+        <img class="m4_img4" src="source/mafia_memory/m4_img4.svg" />
       </div>
     </div>
 
     <div class="modal5">
       <div class="modal_content">
         <img class="m5_img1" src="source/mafia_memory/m5_img1.jpg" />
-        <img class="m5_img2" src="source/mafia_memory/m5_img2.svg" />
+
         <img
           class="close_button"
           src="source/mafia_memory/close_button.svg"
           title="클릭하면 창이 닫힙니다."
         />
+        <button class="roll_left_m5"></button>
+        <button class="roll_right_m5"></button>
+        <div class="rolling_m5">
+          <ul class="안보이는영역_m5">
+            <li>
+              <img class="m5_img2" src="source/mafia_memory/m5_img2.svg" />
+            </li>
+            <li>
+              <img class="m5_img3" src="source/mafia_memory/m5_img3.svg" />
+            </li>
+          </ul>
+        </div>
+        <img class="m5_img4" src="source/mafia_memory/m5_img4.svg" />
       </div>
     </div>
-
     <div class="modal6">
       <div class="modal_content">
         <img class="m6_img1" src="source/mafia_memory/m6_img1.jpg" />
@@ -259,6 +284,14 @@
         $(".modal4").fadeOut();
       });
 
+      $(".roll_left").click(function () {
+        $(".rolling li").eq(0).insertAfter(".rolling li:last-child");
+      });
+
+      $(".roll_right").click(function () {
+        $(".rolling li").eq(-1).insertBefore(".rolling li:first-child");
+      });
+
       /*메모리즈5*/
       $(".box_article5").click(function () {
         $(".modal5").fadeIn();
@@ -266,6 +299,14 @@
 
       $(".close_button").click(function () {
         $(".modal5").fadeOut();
+      });
+
+      $(".roll_left_m5").click(function () {
+        $(".rolling_m5 li").eq(0).insertAfter(".rolling_m5 li:last-child");
+      });
+
+      $(".roll_right_m5").click(function () {
+        $(".rolling_m5 li").eq(-1).insertBefore(".rolling_m5 li:first-child");
       });
 
       /*메모리즈6*/

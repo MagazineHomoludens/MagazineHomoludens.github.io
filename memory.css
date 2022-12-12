@@ -641,6 +641,7 @@ body {
 }
 
 /* 모달창 4*/
+
 .modal4 {
   position: fixed;
   width: 100%;
@@ -658,13 +659,7 @@ body {
   left: 4.5rem;
   top: 4.5rem;
 }
-.m4_img2 {
-  position: absolute;
-  width: 82.3rem;
-  height: 55rem;
-  right: 4.5rem;
-  top: 4rem;
-}
+
 .close_button {
   position: absolute;
   width: 1.9rem;
@@ -672,6 +667,68 @@ body {
   right: 4.5rem;
   top: 4.5rem;
   cursor: pointer;
+  z-index: 3;
+}
+
+.rolling {
+  position: absolute;
+  width: 45.9rem;
+  height: 52rem;
+  right: 7.2rem;
+  top: 6.5rem;
+
+  overflow: hidden;
+}
+.안보이는영역 {
+  height: 52rem;
+  width: 300%;
+  list-style: none;
+  padding-left: 0%;
+  margin-top: 0%;
+}
+.m4_img2 {
+  width: 45.9rem;
+  height: 52rem;
+  list-style: none;
+  float: left;
+}
+.m4_img3 {
+  list-style: none;
+  margin-top: 0;
+  width: 45.9rem;
+  height: 52rem;
+  border: 0;
+  margin-top: 0px;
+  padding: 0px;
+}
+.roll_left {
+  z-index: 3;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  width: 5rem;
+  height: 8.3rem;
+  left: 54.5rem;
+  top: 27.4rem;
+  background: url("source/mafia_memory/left.svg");
+}
+.roll_right {
+  z-index: 3;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  width: 5rem;
+  height: 8.3rem;
+  right: 1.4rem;
+  top: 27.4rem;
+  background: url("source/mafia_memory/right.svg");
+}
+.m4_img4 {
+  position: absolute;
+  width: 82.3rem;
+  height: 55rem;
+  top: 4.5rem;
+  right: 4.5rem;
 }
 
 /* 모달창 5*/
@@ -692,13 +749,7 @@ body {
   left: 4.5rem;
   top: 4.5rem;
 }
-.m5_img2 {
-  position: absolute;
-  width: 93.7rem;
-  height: 55rem;
-  right: 4.5rem;
-  top: 4rem;
-}
+
 .close_button {
   position: absolute;
   width: 1.9rem;
@@ -706,8 +757,69 @@ body {
   right: 4.5rem;
   top: 4.5rem;
   cursor: pointer;
+  z-index: 3;
 }
 
+.rolling_m5 {
+  position: absolute;
+  width: 45.9rem;
+  height: 52rem;
+  right: 10.9rem;
+  top: 6.5rem;
+
+  overflow: hidden;
+}
+.안보이는영역_m5 {
+  height: 52rem;
+  width: 300%;
+  list-style: none;
+  padding-left: 0%;
+  margin-top: 0%;
+}
+.m5_img2 {
+  width: 45.9rem;
+  height: 52rem;
+  list-style: none;
+  float: left;
+}
+.m5_img3 {
+  list-style: none;
+  margin-top: 0;
+  width: 45.9rem;
+  height: 52rem;
+  border: 0;
+  margin-top: 0px;
+  padding: 0px;
+}
+.roll_left_m5 {
+  z-index: 3;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  width: 5rem;
+  height: 8.3rem;
+  left: 45.5rem;
+  top: 27.4rem;
+  background: url("source/mafia_memory/left.svg");
+}
+.roll_right_m5 {
+  z-index: 3;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  width: 5rem;
+  height: 8.3rem;
+  right: 1.4rem;
+  top: 27.4rem;
+  background: url("source/mafia_memory/right.svg");
+}
+.m5_img4 {
+  position: absolute;
+  width: 93.7rem;
+  height: 55rem;
+  top: 4.5rem;
+  right: 4.5rem;
+}
 /* 모달창 6*/
 .modal6 {
   position: fixed;
