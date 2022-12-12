@@ -1,0 +1,626 @@
+@font-face {
+  font-family: "Cafe24Ssurround";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-size: 10px;
+}
+body {
+  height: 11640px;
+  width: 100%;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+}
+
+/* 헤더 */
+
+.box__header {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  background-color: #f2f2f2;
+  z-index: 10;
+  border-bottom-style: solid;
+  border-bottom-color: #d9d9d9;
+  border-bottom-width: 1px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#basic_box {
+  width: 70px;
+  height: 48px;
+  padding-top: 2px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#content_box {
+  width: 100px;
+  height: 48px;
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#story_box {
+  width: 70px;
+  height: 48px;
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#memory_box {
+  width: 100px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  background-color: #919623;
+  width: 100px;
+  height: 3.5px;
+  border-radius: 3px;
+  position: absolute;
+  top: 47.5px;
+}
+
+.STORY {
+  color: #919623;
+
+  font-family: "Cafe24 Ssurround";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+}
+.font__menu {
+  font-family: "Cafe24 Ssurround";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+
+  color: #494949;
+}
+.font__menu:hover {
+  color: #919623;
+}
+#logo_small {
+  width: 70px;
+  height: 34px;
+}
+#boxbox {
+  width: 389px;
+  height: 50px;
+  display: block;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button__megazine {
+  height: 30px;
+  width: 142px;
+  background-color: #919623;
+  position: absolute;
+  top: 40px;
+  right: 14.2%;
+  border-radius: 2px;
+  display: none;
+  justify-content: center;
+  padding-top: 9px;
+  z-index: 3;
+}
+#check_vol {
+  display: none;
+}
+
+#check_vol:checked ~ .button__megazine {
+  display: flex;
+  transition: 0.2s;
+}
+.vol1 {
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.vol1:hover {
+  color: #494949;
+}
+.box__top_right {
+  height: 31px;
+  width: 388px;
+
+  padding-top: 2px;
+  background-color: rgba(176, 177, 150, 0.1);
+  border-radius: 300px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.span__menu {
+  font-family: "Cafe24Ssurround";
+  color: #494949;
+  font-size: 16px;
+  text-decoration: none;
+}
+.span__menu:hover {
+  color: #919623;
+}
+/*기사 제목 및 날짜,에디터 정보*/
+
+.box_all {
+  width: 99.3rem;
+  height: 220rem;
+
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.title_big {
+  font-family: "AppleSDGothicNeoB00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 5.6rem;
+  position: absolute;
+  width: 99.3rem;
+  height: 5.6rem;
+  left: 0%;
+  top: 6rem;
+  color: #000000;
+}
+.box_article_info {
+  width: 26.2rem;
+  height: 1.8rem;
+  position: absolute;
+  left: 0%;
+  top: 16.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.font_article_info {
+  font-family: "AppleSDGothicNeoL00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #424242;
+}
+.article_line {
+  position: absolute;
+  width: 96.43%;
+  height: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 21rem;
+
+  border: 0.5px solid #d9d9d9;
+}
+/*메인 이미지*/
+.article_mainimg {
+  position: absolute;
+  width: 99.3rem;
+  height: 25.8rem;
+  left: 0%;
+  top: 23rem;
+
+  object-fit: cover;
+}
+/*본문*/
+.title_small {
+  position: absolute;
+  width: 99.3rem;
+  height: 4.2rem;
+  left: 0%;
+
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+
+  letter-spacing: -0.05em;
+
+  color: #000000;
+}
+.title_color {
+  position: absolute;
+  width: 99.3rem;
+  height: 3.5rem;
+  left: 0%;
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.05em;
+
+  color: #4c5000;
+}
+
+.title_color::after {
+  content: "";
+  width: 28.8rem;
+  height: 0.8rem;
+
+  background: rgba(145, 150, 35, 0.3);
+  position: absolute;
+  bottom: 1rem;
+  left: 0px;
+  z-index: -1;
+}
+.article {
+  position: absolute;
+  width: 99.3rem;
+  height: 140px;
+  left: 0%;
+  text-align: justify;
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.05em;
+
+  color: #555555;
+}
+
+/*위치 지정*/
+.t1 {
+  top: 51rem;
+}
+.tc1 {
+  top: 57rem;
+}
+.tc1::after {
+  width: 48rem;
+}
+.a1 {
+  top: 62rem;
+}
+
+.a3_img2 {
+  position: absolute;
+  width: 99.3rem;
+  height: 36.1rem;
+  left: 0%;
+  top: 78rem;
+}
+.tc2 {
+  top: 116.5rem;
+}
+.tc2::after {
+  width: 15rem;
+}
+.a3 {
+  top: 121.5rem;
+}
+.tc3 {
+  top: 138.5rem;
+}
+.tc3::after {
+  width: 15rem;
+}
+.a4 {
+  top: 143.5rem;
+}
+
+/*플레이기록으로 그린 네트워크지도*/
+.t2 {
+  top: 183rem;
+}
+.a5 {
+  top: 191.5rem;
+}
+
+/*네트워크지도 이미지*/
+.a3_img3 {
+  position: absolute;
+  width: 99.3rem;
+  height: 306rem;
+  left: 0%;
+  top: 206.5rem;
+}
+.t3 {
+  top: 520rem;
+}
+/*플레이 기록으로 본 플레이어 통계*/
+
+.tc4 {
+  top: 526rem;
+}
+.tc4::after {
+  width: 27rem;
+}
+.a6 {
+  top: 531rem;
+}
+
+.a3_img4 {
+  position: absolute;
+  width: 99.3rem;
+  height: 48.7rem;
+  left: 0%;
+  top: 544rem;
+}
+
+.tc5 {
+  top: 599rem;
+}
+.tc5::after {
+  width: 24rem;
+}
+.a7 {
+  top: 604rem;
+}
+
+.a3_img5 {
+  position: absolute;
+  width: 86.7rem;
+  height: 102.1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 617.5rem;
+}
+
+/*플레이어 친밀도, 신뢰도 네트워크 지도*/
+.t4 {
+  top: 727.5rem;
+}
+.a8 {
+  top: 736rem;
+}
+
+.a3_img6 {
+  position: absolute;
+  width: 99.2rem;
+  height: 51.6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 752.5rem;
+}
+
+/*마피아 게임과 신뢰*/
+.t5 {
+  top: 810rem;
+}
+.a9 {
+  top: 818.5rem;
+}
+
+.a9 > a {
+  color: #919623;
+}
+
+/*거짓말의 발명 영화 박스*/
+.movie_box {
+  position: absolute;
+  width: 92rem;
+  height: 34.1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 845.5rem;
+  object-fit: fill;
+
+  background: url("source/mafia_story/a3_img7.png");
+}
+
+.a3_img7 {
+  position: absolute;
+  left: 4.5rem;
+  top: 4.5rem;
+  width: 83rem;
+  height: 25.1rem;
+}
+
+/** 지인 신뢰도의 변화**/
+.tc6 {
+  top: 882rem;
+}
+.tc6::after {
+  width: 14rem;
+}
+
+.a3_img8 {
+  position: absolute;
+  width: 98.9rem;
+  height: 52.1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 891rem;
+}
+
+.tc7 {
+  top: 950rem;
+}
+.tc7::after {
+  width: 21.5rem;
+}
+
+.a3_img9 {
+  position: absolute;
+  width: 99.2rem;
+  height: 94.9rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 959rem;
+}
+
+/*에디터 박스*/
+.box_editer {
+  position: absolute;
+  width: 100%;
+  height: 23rem;
+  left: 0px;
+  top: 1064rem;
+  background: #768b82;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_editer {
+  width: 753px;
+  height: 135px;
+}
+/*이런건 어때요?*/
+
+.recommend_bigbox {
+  width: 99.3rem;
+  height: 42rem;
+
+  position: absolute;
+  top: 1097rem;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.recommend_title {
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.6rem;
+
+  color: #000000;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+.recommend_articlebox1 {
+  width: 30.7rem;
+  height: 318px;
+
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+}
+.recommend_img {
+  position: absolute;
+  width: 30.7rem;
+  height: 20rem;
+  left: 0%;
+  top: 0%;
+  background: url("source/mafia_story/a3_recommend1.jpg");
+}
+
+.recommend_tag {
+  position: absolute;
+  width: 30.7rem;
+  height: 1.8rem;
+  left: 0%;
+  top: 21rem;
+
+  font-family: "AppleSDGothicNeoL00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.05em;
+
+  color: #5e5e5e;
+}
+.recommend_articletitle {
+  position: absolute;
+  width: 30.7rem;
+
+  left: 0%;
+  top: 23.2rem;
+
+  font-family: "AppleSDGothicNeoM00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: -0.05em;
+
+  color: #000000;
+}
+.recommend_articlecontents {
+  position: absolute;
+  width: 30.7rem;
+  height: 1.8rem;
+  left: 0%;
+  top: 27rem;
+
+  font-family: "AppleSDGothicNeoL00";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.05em;
+
+  color: #000000;
+}
+
+/*두번째 기사 추천 박스*/
+
+.recommend_articlebox2 {
+  width: 30.7rem;
+  height: 318px;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0%;
+}
+.recommend_articlebox2 > .recommend_img {
+  background: url("source/mafia_story/a3_recommend2.jpg");
+}
+
+.recommend_articlebox2 > .recommend_articlecontents {
+  top: 27rem;
+}
+
+/*세번째 기사 추천 박스*/
+
+.recommend_articlebox3 {
+  width: 30.7rem;
+  height: 318px;
+
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+
+.recommend_articlebox3 > .recommend_img {
+  background: url("source/mafia_story/a3_recommend3.jpg");
+}
+
+.recommend_articlebox3 > .recommend_articlecontents {
+  top: 27rem;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 8rem;
+  left: 0%;
+  top: 1156rem;
+  background: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
