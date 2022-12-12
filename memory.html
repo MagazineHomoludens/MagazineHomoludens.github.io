@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script defer src="memory.js"></script>
     <link href="memory.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -51,6 +52,7 @@
             <img
               class="search__icon column__menu"
               src="source/search_icon.svg"
+              title="준비 중인 기능입니다."
             />
           </div>
         </div>
@@ -117,9 +119,181 @@
       <span class="font_title">아무도 믿을 수 없다</span>
       <span class="font_contents">Memory of H.J.E</span>
     </div>
+    <!--모달 창-->
+    <div class="modal1">
+      <div class="modal_content">
+        <img class="m1_img1" src="source/mafia_memory/m1_img1.jpg" />
+        <img class="m1_img2" src="source/mafia_memory/m1_img2.svg" />
+        <img
+          class="close_button"
+          src="source/mafia_memory/close_button.svg"
+          title="클릭하면 창이 닫힙니다."
+        />
+      </div>
+    </div>
+
+    <div class="modal2">
+      <div class="modal_content">
+        <img class="m2_img1" src="source/mafia_memory/m2_img1.jpg" />
+        <img class="m2_img2" src="source/mafia_memory/m2_img2.svg" />
+        <img
+          class="close_button"
+          src="source/mafia_memory/close_button.svg"
+          title="클릭하면 창이 닫힙니다."
+        />
+      </div>
+    </div>
+
+    <div class="modal3">
+      <div class="modal_content">
+        <img class="m3_img1" src="source/mafia_memory/m3_img1.jpg" />
+        <img class="m3_img2" src="source/mafia_memory/m3_img2.svg" />
+        <img
+          class="close_button"
+          src="source/mafia_memory/close_button.svg"
+          title="클릭하면 창이 닫힙니다."
+        />
+      </div>
+    </div>
+
+    <div class="modal4">
+      <div class="modal_content">
+        <img class="m4_img1" src="source/mafia_memory/m4_img1.jpg" />
+        <img class="m4_img2" src="source/mafia_memory/m4_img2.svg" />
+        <img
+          class="close_button"
+          src="source/mafia_memory/close_button.svg"
+          title="클릭하면 창이 닫힙니다."
+        />
+      </div>
+    </div>
+
+    <div class="modal5">
+      <div class="modal_content">
+        <img class="m5_img1" src="source/mafia_memory/m5_img1.jpg" />
+        <img class="m5_img2" src="source/mafia_memory/m5_img2.svg" />
+        <img
+          class="close_button"
+          src="source/mafia_memory/close_button.svg"
+          title="클릭하면 창이 닫힙니다."
+        />
+      </div>
+    </div>
+
+    <div class="modal6">
+      <div class="modal_content">
+        <img class="m6_img1" src="source/mafia_memory/m6_img1.jpg" />
+        <img class="m6_img2" src="source/mafia_memory/m6_img2.svg" />
+        <img
+          class="close_button"
+          src="source/mafia_memory/close_button.svg"
+          title="클릭하면 창이 닫힙니다."
+        />
+      </div>
+    </div>
+
+    <div class="modal7">
+      <div class="modal_content">
+        <img class="m7_img1" src="source/mafia_memory/m7_img1.jpg" />
+        <img class="m7_img2" src="source/mafia_memory/m7_img2.svg" />
+        <img
+          class="close_button"
+          src="source/mafia_memory/close_button.svg"
+          title="클릭하면 창이 닫힙니다."
+        />
+      </div>
+    </div>
+
+    <div class="modal8">
+      <div class="modal_content">
+        <img class="m8_img1" src="source/mafia_memory/m8_img1.jpg" />
+        <img class="m8_img2" src="source/mafia_memory/m8_img2.svg" />
+        <img
+          class="close_button"
+          src="source/mafia_memory/close_button.svg"
+          title="클릭하면 창이 닫힙니다."
+        />
+      </div>
+    </div>
+
     <div id="m_img"></div>
     <footer class="footer">
       <img src="source/footer.svg" />
     </footer>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script>
+      /*메모리즈1*/
+      $(".box_article1").click(function () {
+        $(".modal1").fadeIn();
+      });
+
+      $(".close_button").click(function () {
+        $(".modal1").fadeOut();
+      });
+
+      /*메모리즈2*/
+      $(".box_article2").click(function () {
+        $(".modal2").fadeIn();
+      });
+
+      $(".close_button").click(function () {
+        $(".modal2").fadeOut();
+      });
+
+      /*메모리즈3*/
+      $(".box_article3").click(function () {
+        $(".modal3").fadeIn();
+      });
+
+      $(".close_button").click(function () {
+        $(".modal3").fadeOut();
+      });
+
+      /*메모리즈4*/
+      $(".box_article4").click(function () {
+        $(".modal4").fadeIn();
+      });
+
+      $(".close_button").click(function () {
+        $(".modal4").fadeOut();
+      });
+
+      /*메모리즈5*/
+      $(".box_article5").click(function () {
+        $(".modal5").fadeIn();
+      });
+
+      $(".close_button").click(function () {
+        $(".modal5").fadeOut();
+      });
+
+      /*메모리즈6*/
+      $(".box_article6").click(function () {
+        $(".modal6").fadeIn();
+      });
+
+      $(".close_button").click(function () {
+        $(".modal6").fadeOut();
+      });
+
+      /*메모리즈7*/
+      $(".box_article7").click(function () {
+        $(".modal7").fadeIn();
+      });
+
+      $(".close_button").click(function () {
+        $(".modal7").fadeOut();
+      });
+
+      /*메모리즈8*/
+      $(".box_article8").click(function () {
+        $(".modal8").fadeIn();
+      });
+
+      $(".close_button").click(function () {
+        $(".modal8").fadeOut();
+      });
+    </script>
   </body>
 </html>

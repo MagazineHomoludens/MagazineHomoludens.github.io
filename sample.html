@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link href="sample.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homoludens-MAFIA-MEMORY</title>
+  </head>
+  <body>
+    <span id="button">모달창</span>
+
+    <div class="modal">
+      <div class="modal_content" title="클릭하면 창이 닫힙니다.">
+        <img class="m1_img1" src="source/mafia_memory/m1_img1.jpg" />
+        <img class="m1_img2" src="source/mafia_memory/m1_img2.svg" />
+        <img class="close_button" src="source/mafia_memory/close_button.svg" />
+      </div>
+    </div>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script>
+      $("#button").click(function () {
+        $(".modal").fadeIn();
+      });
+
+      $(".close_button").click(function () {
+        $(".modal").fadeOut();
+      });
+    </script>
+  </body>
+</html>

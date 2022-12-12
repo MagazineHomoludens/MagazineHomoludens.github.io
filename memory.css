@@ -5,7 +5,9 @@
   font-weight: normal;
   font-style: normal;
 }
-
+html {
+  font-size: 10px;
+}
 body {
   height: 3130px;
   width: 100%;
@@ -223,7 +225,7 @@ body {
   height: 475px;
   left: 10.6%;
   top: 318px;
-
+  cursor: pointer;
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
@@ -296,7 +298,7 @@ body {
   height: 732px;
   right: 10.6%;
   top: 317px;
-
+  cursor: pointer;
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
@@ -326,7 +328,7 @@ body {
   height: 732px;
   left: 10.6%;
   top: 828px;
-
+  cursor: pointer;
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
@@ -356,7 +358,7 @@ body {
   height: 345px;
   right: 10.6%;
   top: 1086px;
-
+  cursor: pointer;
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
@@ -386,7 +388,7 @@ body {
   height: 572px;
   left: 10.6%;
   top: 1599px;
-
+  cursor: pointer;
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
@@ -416,7 +418,7 @@ body {
   height: 472px;
   right: 10.6%;
   top: 1469px;
-
+  cursor: pointer;
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
@@ -446,7 +448,7 @@ body {
   height: 604px;
   left: 10.6%;
   top: 2212px;
-
+  cursor: pointer;
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
@@ -476,7 +478,7 @@ body {
   height: 640px;
   right: 10.6%;
   top: 1980px;
-
+  cursor: pointer;
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
@@ -520,4 +522,290 @@ body {
   top: 2620px;
 
   background: url("source/memory_bottom_img.svg");
+}
+
+/* 모달창 1*/
+.modal1 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.modal_content {
+  width: 113.4rem;
+  height: 63rem;
+  background: #ebe9e9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  cursor: default;
+}
+
+.m1_img1 {
+  position: absolute;
+  width: 47.6rem;
+  height: 47.6rem;
+  left: 4.5rem;
+  top: 4.5rem;
+}
+.m1_img2 {
+  position: absolute;
+  width: 78.4rem;
+  height: 55rem;
+  right: 4.5rem;
+  top: 4rem;
+}
+.close_button {
+  position: absolute;
+  width: 1.9rem;
+  height: 2rem;
+  right: 4.5rem;
+  top: 4.5rem;
+  cursor: pointer;
+}
+
+/* 모달창 2*/
+.modal2 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.m2_img1 {
+  position: absolute;
+  width: 47.6rem;
+  height: 47.6rem;
+  left: 4.5rem;
+  top: 4.5rem;
+}
+.m2_img2 {
+  position: absolute;
+  width: 78rem;
+  height: 55rem;
+  right: 4.5rem;
+  top: 4rem;
+}
+.close_button {
+  position: absolute;
+  width: 1.9rem;
+  height: 2rem;
+  right: 4.5rem;
+  top: 4.5rem;
+  cursor: pointer;
+}
+
+/* 모달창 3*/
+.modal3 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.m3_img1 {
+  position: absolute;
+  width: 47.6rem;
+  height: 47.6rem;
+  left: 4.5rem;
+  top: 4.5rem;
+}
+.m3_img2 {
+  position: absolute;
+  width: 78.4rem;
+  height: 56.5rem;
+  right: 4.5rem;
+  top: 4rem;
+}
+.close_button {
+  position: absolute;
+  width: 1.9rem;
+  height: 2rem;
+  right: 4.5rem;
+  top: 4.5rem;
+  cursor: pointer;
+}
+
+/* 모달창 4*/
+.modal4 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.m4_img1 {
+  position: absolute;
+  width: 44.1rem;
+  height: 47.6rem;
+  left: 4.5rem;
+  top: 4.5rem;
+}
+.m4_img2 {
+  position: absolute;
+  width: 82.3rem;
+  height: 55rem;
+  right: 4.5rem;
+  top: 4rem;
+}
+.close_button {
+  position: absolute;
+  width: 1.9rem;
+  height: 2rem;
+  right: 4.5rem;
+  top: 4.5rem;
+  cursor: pointer;
+}
+
+/* 모달창 5*/
+.modal5 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.m5_img1 {
+  position: absolute;
+  width: 31.6rem;
+  height: 47.6rem;
+  left: 4.5rem;
+  top: 4.5rem;
+}
+.m5_img2 {
+  position: absolute;
+  width: 93.7rem;
+  height: 55rem;
+  right: 4.5rem;
+  top: 4rem;
+}
+.close_button {
+  position: absolute;
+  width: 1.9rem;
+  height: 2rem;
+  right: 4.5rem;
+  top: 4.5rem;
+  cursor: pointer;
+}
+
+/* 모달창 6*/
+.modal6 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.m6_img1 {
+  position: absolute;
+  width: 47.6rem;
+  height: 47.6rem;
+  left: 4.5rem;
+  top: 4.5rem;
+}
+.m6_img2 {
+  position: absolute;
+  width: 77.7rem;
+  height: 56.5rem;
+  right: 4.5rem;
+  top: 4rem;
+}
+.close_button {
+  position: absolute;
+  width: 1.9rem;
+  height: 2rem;
+  right: 4.5rem;
+  top: 4.5rem;
+  cursor: pointer;
+}
+
+/* 모달창 7*/
+.modal7 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.m7_img1 {
+  position: absolute;
+  width: 57.5rem;
+  height: 47.6rem;
+  left: 4.5rem;
+  top: 4.5rem;
+}
+.m7_img2 {
+  position: absolute;
+  width: 67.7rem;
+  height: 55rem;
+  right: 4.5rem;
+  top: 4rem;
+}
+.close_button {
+  position: absolute;
+  width: 1.9rem;
+  height: 2rem;
+  right: 4.5rem;
+  top: 4.5rem;
+  cursor: pointer;
+}
+
+/* 모달창 7*/
+.modal8 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.m8_img1 {
+  position: absolute;
+  width: 50.2rem;
+  height: 47.6rem;
+  left: 4.5rem;
+  top: 4.5rem;
+}
+.m8_img2 {
+  position: absolute;
+  width: 75.2rem;
+  height: 55rem;
+  right: 4.5rem;
+  top: 4rem;
+}
+.close_button {
+  position: absolute;
+  width: 1.9rem;
+  height: 2rem;
+  right: 4.5rem;
+  top: 4.5rem;
+  cursor: pointer;
 }
