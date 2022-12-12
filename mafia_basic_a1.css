@@ -18,7 +18,12 @@ body {
 }
 
 /* 헤더 */
-
+.BASIC,
+.font__menu,
+.span__menu,
+.btn__vol {
+  transform: skew(-0.1deg);
+}
 .box__header {
   position: fixed;
   width: 100%;
@@ -95,7 +100,6 @@ body {
   font-size: 16px;
   line-height: 19px;
   text-decoration: none;
-  transform: skew(-0.001deg);
 
   color: #494949;
 }
@@ -163,7 +167,6 @@ body {
 }
 
 .span__menu {
-  transform: skew(-0.001deg);
   font-family: "Cafe24Ssurround";
   color: #494949;
   font-size: 16px;
