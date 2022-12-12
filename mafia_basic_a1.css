@@ -86,15 +86,17 @@ body {
 .BASIC {
   color: #919623;
 
-  font-family: "Cafe24 Ssurround";
+  font-family: "Cafe24Ssurround";
 
+  font-weight: 700;
   font-size: 16px;
-
+  line-height: 19px;
   text-decoration: none;
 }
 .font__menu {
-  font-family: "Cafe24 Ssurround";
+  font-family: "Cafe24Ssurround";
 
+  font-weight: 700;
   font-size: 16px;
 
   text-decoration: none;
