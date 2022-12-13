@@ -1,3 +1,4 @@
+@import url("//fonts.googleapis.com/earlyaccess/notosanskr.css");
 @font-face {
   font-family: "Cafe24Ssurround";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff")
@@ -5,7 +6,9 @@
   font-weight: normal;
   font-style: normal;
 }
-
+.notosanskr * {
+  font-family: "Noto Sans KR", sans-serif;
+}
 html {
   font-size: 10px;
 }
