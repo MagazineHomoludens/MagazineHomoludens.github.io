@@ -19,7 +19,12 @@ body {
 }
 
 /* 헤더 */
-
+.BASIC,
+.font__menu,
+.span__menu,
+.btn__vol {
+  transform: skew(-0.1deg);
+}
 .box__header {
   position: fixed;
   width: 100%;
@@ -74,17 +79,15 @@ body {
 .STORY {
   color: #919623;
 
-  font-family: "Cafe24 Ssurround";
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Cafe24Ssurround";
+
   font-size: 16px;
   line-height: 19px;
   text-decoration: none;
 }
 .font__menu {
-  font-family: "Cafe24 Ssurround";
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Cafe24Ssurround";
+
   font-size: 16px;
   line-height: 19px;
   text-decoration: none;
@@ -499,7 +502,7 @@ body {
   height: 594px;
   left: 0%;
   top: 220px;
-
+  cursor: pointer;
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
@@ -556,6 +559,7 @@ body {
   height: 594px;
   right: 0%;
   top: 145px;
+  cursor: pointer;
 
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
@@ -732,4 +736,142 @@ body {
   right: 20%;
 
   top: 2970px;
+}
+
+/* 모달창 1*/
+.modal1 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.modal_content {
+  width: 113.4rem;
+  height: 63rem;
+  background: #ebe9e9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  cursor: default;
+}
+
+.m1_img1 {
+  position: absolute;
+  width: 47.6rem;
+  height: 47.6rem;
+  left: 4.5rem;
+  top: 4.5rem;
+}
+.m1_img2 {
+  position: absolute;
+  width: 78.4rem;
+  height: 55rem;
+  right: 4.5rem;
+  top: 4rem;
+}
+.close_button {
+  position: absolute;
+  width: 1.9rem;
+  height: 2rem;
+  right: 4.5rem;
+  top: 4.5rem;
+  cursor: pointer;
+}
+
+/* 모달창 5*/
+.modal5 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.m5_img1 {
+  position: absolute;
+  width: 31.6rem;
+  height: 47.6rem;
+  left: 4.5rem;
+  top: 4.5rem;
+}
+
+.close_button {
+  position: absolute;
+  width: 1.9rem;
+  height: 2rem;
+  right: 4.5rem;
+  top: 4.5rem;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.rolling_m5 {
+  position: absolute;
+  width: 45.9rem;
+  height: 52rem;
+  right: 10.9rem;
+  top: 6.5rem;
+
+  overflow: hidden;
+}
+.안보이는영역_m5 {
+  height: 52rem;
+  width: 300%;
+  list-style: none;
+  padding-left: 0%;
+  margin-top: 0%;
+}
+.m5_img2 {
+  width: 45.9rem;
+  height: 52rem;
+  list-style: none;
+  float: left;
+}
+.m5_img3 {
+  list-style: none;
+  margin-top: 0;
+  width: 45.9rem;
+  height: 52rem;
+  border: 0;
+  margin-top: 0px;
+  padding: 0px;
+}
+.roll_left_m5 {
+  z-index: 3;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  width: 5rem;
+  height: 8.3rem;
+  left: 45.5rem;
+  top: 27.4rem;
+  background: url("source/mafia_memory/left.svg");
+}
+.roll_right_m5 {
+  z-index: 3;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  width: 5rem;
+  height: 8.3rem;
+  right: 1.4rem;
+  top: 27.4rem;
+  background: url("source/mafia_memory/right.svg");
+}
+.m5_img4 {
+  position: absolute;
+  width: 93.7rem;
+  height: 55rem;
+  top: 4.5rem;
+  right: 4.5rem;
 }
