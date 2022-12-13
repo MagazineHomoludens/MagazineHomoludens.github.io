@@ -6,9 +6,7 @@
   font-weight: normal;
   font-style: normal;
 }
-.notosanskr * {
-  font-family: "Noto Sans KR", sans-serif;
-}
+
 html {
   font-size: 10px;
 }
@@ -144,7 +142,7 @@ body {
   transition: 0.2s;
 }
 .vol1 {
-  font-family: "AppleSDGothicNeoM00";
+  font-family: "AppleSDGothicNeoM00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -247,7 +245,7 @@ body {
   height: 4.2rem;
   left: 0%;
 
-  font-family: "AppleSDGothicNeoM00";
+  font-family: "AppleSDGothicNeoM00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 3.2rem;
@@ -262,7 +260,7 @@ body {
   width: 99.3rem;
   height: 3.5rem;
   left: 0%;
-  font-family: "AppleSDGothicNeoM00";
+  font-family: "AppleSDGothicNeoM00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
@@ -289,7 +287,7 @@ body {
   height: 14rem;
   left: 0%;
   text-align: justify;
-  font-family: "AppleSDGothicNeoM00";
+  font-family: "AppleSDGothicNeoM00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
@@ -364,7 +362,7 @@ body {
   width: 84rem;
   height: 3rem;
 
-  font-family: "AppleSDGothicNeoB00";
+  font-family: "AppleSDGothicNeoB00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
@@ -375,7 +373,7 @@ body {
 }
 
 .주요촬영지 > span > span {
-  font-family: "AppleSDGothicNeoM00";
+  font-family: "AppleSDGothicNeoM00", "Noto Sans KR", sans-serif;
 }
 
 .a1_img4 {
@@ -418,7 +416,7 @@ body {
   width: 84rem;
   height: 3rem;
 
-  font-family: "AppleSDGothicNeoB00";
+  font-family: "AppleSDGothicNeoB00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
@@ -429,7 +427,7 @@ body {
 }
 
 .주요촬영지 > span > span {
-  font-family: "AppleSDGothicNeoM00";
+  font-family: "AppleSDGothicNeoM00", "Noto Sans KR", sans-serif;
 }
 
 .a1_img4 {
@@ -458,7 +456,7 @@ body {
   left: 4.4rem;
   top: 4.4rem;
 
-  font-family: "AppleSDGothicNeoM00";
+  font-family: "AppleSDGothicNeoM00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -488,7 +486,7 @@ body {
   right: 7.7rem;
   top: 4.15rem;
 
-  font-family: "AppleSDGothicNeoM00";
+  font-family: "AppleSDGothicNeoM00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
@@ -557,7 +555,7 @@ body {
   width: 84rem;
   height: 3rem;
 
-  font-family: "AppleSDGothicNeoB00";
+  font-family: "AppleSDGothicNeoB00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
@@ -568,7 +566,7 @@ body {
 }
 
 .주요촬영지2 > span > span {
-  font-family: "AppleSDGothicNeoM00";
+  font-family: "AppleSDGothicNeoM00", "Noto Sans KR", sans-serif;
 }
 
 .a1_img7 {
@@ -656,7 +654,7 @@ body {
   width: 84rem;
   height: 3rem;
 
-  font-family: "AppleSDGothicNeoB00";
+  font-family: "AppleSDGothicNeoB00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
@@ -667,7 +665,7 @@ body {
 }
 
 .주요촬영지3 > span > span {
-  font-family: "AppleSDGothicNeoM00";
+  font-family: "AppleSDGothicNeoM00", "Noto Sans KR", sans-serif;
 }
 .a1_img10 {
   position: absolute;
@@ -697,7 +695,7 @@ body {
   width: 6.7rem;
   height: 7.8rem;
 
-  font-family: "AppleSDGothicNeoM00";
+  font-family: "AppleSDGothicNeoM00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -736,7 +734,7 @@ body {
   right: 7.7rem;
   top: 4.15rem;
 
-  font-family: "AppleSDGothicNeoM00";
+  font-family: "AppleSDGothicNeoM00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
@@ -778,7 +776,7 @@ body {
   transform: translatex(-50%);
 }
 .recommend_title {
-  font-family: "AppleSDGothicNeoM00";
+  font-family: "AppleSDGothicNeoM00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2.6rem;
@@ -812,7 +810,7 @@ body {
   left: 0%;
   top: 21rem;
 
-  font-family: "AppleSDGothicNeoL00";
+  font-family: "AppleSDGothicNeoL00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.4rem;
@@ -828,7 +826,7 @@ body {
   left: 0%;
   top: 23.2rem;
 
-  font-family: "AppleSDGothicNeoM00";
+  font-family: "AppleSDGothicNeoM00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
@@ -844,7 +842,7 @@ body {
   left: 0%;
   top: 30rem;
 
-  font-family: "AppleSDGothicNeoL00";
+  font-family: "AppleSDGothicNeoL00", "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.4rem;
